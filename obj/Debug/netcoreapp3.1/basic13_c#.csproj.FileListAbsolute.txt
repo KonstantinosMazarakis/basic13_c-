@@ -1,0 +1,13 @@
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.exe
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.deps.json
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.runtimeconfig.json
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.runtimeconfig.dev.json
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.dll
+C:\CodingDojo\c#\assigments\basic13_c#\bin\Debug\netcoreapp3.1\basic13_c#.pdb
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.csprojAssemblyReference.cache
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.AssemblyInfoInputs.cache
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.AssemblyInfo.cs
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.csproj.CoreCompileInputs.cache
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.dll
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.pdb
+C:\CodingDojo\c#\assigments\basic13_c#\obj\Debug\netcoreapp3.1\basic13_c#.genruntimeconfig.cache

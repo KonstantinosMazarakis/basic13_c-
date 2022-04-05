@@ -37,6 +37,9 @@ namespace basic13_c_
             Console.WriteLine("-------------------------");
             int[] numArray9 = { 1, 5, 10, 7, -2 };
             ShiftValues(numArray9);
+            Console.WriteLine("-------------------------");
+            int[] numArray10 = { -1, -3, 2};
+            NumToString(numArray10);
         }
 
         public static void PrintNumbers()
@@ -206,11 +209,11 @@ namespace basic13_c_
 
         public static void ShiftValues(int[] numbers)
         {
-            for(int i = 0; i < numbers.Length;i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                if(i + 1 != numbers.Length)
+                if (i + 1 != numbers.Length)
                 {
-                numbers[i] = numbers[i + 1];
+                    numbers[i] = numbers[i + 1];
                 }
                 else
                 {
@@ -218,10 +221,37 @@ namespace basic13_c_
                     i++;
                 }
             }
-            foreach(int x in numbers)
+            foreach (int x in numbers)
             {
                 Console.WriteLine(x);
             }
         }
+
+
+
+        public static object[] NumToString(int[] numbers)
+        {
+            object[] newArr = new object[numbers.Length];
+            for(int i = 0; i < numbers.Length;i++)
+            {
+                if(numbers[i] < 0)
+                {
+                    newArr[i] = "Dojo";
+                }
+                else
+                {
+                    newArr[i] = numbers[i];
+                }
+                }
+                foreach(var x in newArr)
+                {
+                    Console.WriteLine(x);
+                }
+                return newArr;
+            }
+            // Write a function that takes an integer array and returns an object array 
+            // that replaces any negative number with the string 'Dojo'.
+            // For example, if array "numbers" is initially [-1, -3, 2] 
+            // your function should return an array with values ['Dojo', 'Dojo', 2].
+        }
     }
-}
